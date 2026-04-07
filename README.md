@@ -91,13 +91,13 @@ Open http://localhost:3000
 
 ---
 
-## Running tests
+## 4. Running tests
 
 ```bash
 npm run test
 ```
 
-## Run a Production build
+## 5. Run a Production build
 
 ```bash
 npm run build
