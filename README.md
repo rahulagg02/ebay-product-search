@@ -155,12 +155,10 @@ One thing I paid attention to was keeping the backend clean:
 
 ---
 
-## (Optional) Live Demo
-
-If deployed:
+## Live Demo
 
 ```
-https://your-app.vercel.app
+[https://your-app.vercel.app](https://ebay-product-search-inky.vercel.app/)
 ```
 
 ---
