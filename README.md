@@ -2,14 +2,14 @@
 
 This is a small full-stack application I built that lets users search for products using the eBay Browse API.
 
-The goal was to keep things simple, clean, and production-minded — especially around API integration, security, and structuring the backend properly.
+The goal was to keep things simple, clean, and production-minded especially around API integration, security and structuring the backend properly.
 
 ---
 
 ## What it does
 
 * Lets users search for products (e.g. "iphone")
-* Shows results with title, price, condition, image, and link to eBay
+* Shows results with title, price, condition, image and link to eBay
 * Supports:
 
   * price filtering (min / max)
@@ -120,7 +120,7 @@ Supports:
 
 ## Sandbox vs Production
 
-I initially tried using the eBay Sandbox environment, but the Browse API was returning internal errors.
+I initially tried using the eBay Sandbox environment but the Browse API was returning internal errors.
 
 The same implementation worked fine with Production credentials, so I used Production for this project.
 
@@ -129,7 +129,7 @@ The same implementation worked fine with Production credentials, so I used Produ
 ## Tradeoffs
 
 * Used in-memory caching for tokens instead of something persistent (kept it simple for this scope)
-* UI is intentionally minimal — focused more on functionality than design polish
+* UI is intentionally minimal, focused more on functionality than design polish
 * No global state management since the app is small
 
 ---
@@ -160,9 +160,3 @@ One thing I paid attention to was keeping the backend clean:
 ```
 [https://your-app.vercel.app](https://ebay-product-search-inky.vercel.app/)
 ```
-
----
-
-## Author
-
-Rahul Aggarwal
