@@ -2,7 +2,7 @@
 
 This is a small full-stack application I built that lets users search for products using the eBay Browse API.
 
-The goal was to keep things simple, clean, and production-minded especially around API integration, security and structuring the backend properly.
+The goal was to keep things simple, clean and production-minded, especially around API integration, security and backend structure.
 
 ---
 
@@ -95,6 +95,12 @@ Open http://localhost:3000
 
 ```bash
 npm run test
+```
+
+## Run a Production build
+
+```bash
+npm run build
 ```
 
 I added a couple of unit tests for:
