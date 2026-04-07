@@ -158,5 +158,5 @@ One thing I paid attention to was keeping the backend clean:
 ## Live Demo
 
 ```
-[https://your-app.vercel.app](https://ebay-product-search-inky.vercel.app/)
+(https://ebay-product-search-inky.vercel.app/)
 ```
